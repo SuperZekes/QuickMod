@@ -23,7 +23,7 @@ while True:
     
     for jar in new_jars:
         print(f'Found new .jar file: {jar}')
-        choice = input(f'Move {jar} to mods folder? (y/n) ')
+        choice = input(f'Move {jar} to mods folder? (Y/n) ')
         if choice.lower() == 'y':
             shutil.move(jar, mods_folder)
             
